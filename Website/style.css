@@ -1,0 +1,646 @@
+body {
+  background: #171717;
+  color: #f6f6f6;
+  /* padding: 25px; */
+  font-family: sans-serif;
+}
+.navbar{
+  display:inline-flex;
+  flex-wrap: wrap;
+  /* letter-spacing: 0.05em; */
+  /* font-size: 40px; */
+
+}
+.navbar li{
+  letter-spacing: .05em;
+  display: inline-flex;
+  font-size: 35px;
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 40px 24px;
+}
+.navbar li a:hover{
+  color: gray;
+}
+.navbar li a.active{
+  color: gray;
+}
+.mid{
+  /* display: block; */
+  width: 30%;
+  margin: 1% 70%;
+}
+
+.logo{
+  display: block;
+  position: absolute;
+  left: 10px;
+  top: 30px;
+  /* height: 30px; */
+  /* margin:0px 12px 1px;
+  width: 40px;
+  height: 40px;
+  padding: ; */
+}
+.logo img{
+  width: 150px;
+  height: 150px;
+}
+
+/* home */
+
+.home{
+  display: inline-block;
+  /* align-items: center; */
+  /* margin: 10px; */
+  padding: 50px;
+  /* margin: 40px ; */
+  text-align: center;
+}
+
+.fig1 img{
+  /* padding: 60px; */
+  margin: 50px;
+  width: 1500px;
+  /* width: 100%; */
+  height: 800px; 
+  background-size: cover;
+  /* background-image: url(/Website/Images/Offer-1.png); */
+}
+.fig2 img{
+  padding: 40px;
+  width: 1500px;
+  height: 900px; 
+}
+.fig3 img{
+  padding: 60px;
+  width: 1500px;
+  height: 900px; 
+}
+
+/* menu */
+
+#menu{
+  margin: 120px 0px;
+}
+
+.b1 img{
+  width: 768px;
+  height: 512px;
+
+}
+.box{
+  border: 2px solid #171717;
+  float: left;
+  padding: 0px 20px;
+}
+.box2{
+  border: 2px solid #171717;
+  float: left;
+  padding: 0px 20px;
+}
+.box3{
+  display: inline-block;
+  border: 2px solid #171717;
+  float: none;
+  padding: 0px 20px;
+}
+
+.s1 img{
+  width: 768px;
+  height: 512px;
+}
+.sid1{
+  border: 2px solid #171717;
+  float: left;
+  padding: 0px 20px;
+}
+.sid2{
+  border: 2px solid #171717;
+  float: left;
+  padding: 0px 20px;
+}
+.sid3{
+  border: 2px solid #171717;
+  float: left;
+  padding: 0px 20px;
+}
+.sid4{
+  display: inline-block;
+  border: 2px solid #171717;
+  /* height: 400%;
+  float: none; */
+  padding: 0px 20px;
+}
+
+.d1 img{
+  width: 350px;
+  height: 350px;
+}
+
+.dipo{
+  border: 2px solid #171717;
+  float: left;
+  padding: 0px 3px;
+}
+.dipo1{
+  display: inline-block;
+  border: 2px solid #171717;
+  padding: 0px 3px;
+}
+/* ================================== */
+.w1 img{
+  width: 768px;
+  height: 512px;
+}
+.dri{
+  border: 2px solid #171717;
+  float: left;
+  padding: 0px 20px;
+}
+.dri1{
+  display: inline-block;
+  border: 2px solid #171717;
+  padding: 0px 20px;
+}
+
+/* order */
+
+#burger{
+  margin: 120px 20px;
+}
+.ofig1 img{
+  width: 768px;
+  height: 512px;
+}
+.or{
+  border: 2px solid #171717;
+  float: left;
+  padding: 10px 20px;
+  margin-bottom: 8px;
+  padding-bottom: 20px;
+}
+.or1{
+  display: inline-block;
+  border: 2px solid #171717;
+  padding: 0px 20px;
+  margin: 10px 0px 0px;
+}
+/* ============================================================================================= */
+#sides{
+  margin: 50px 20px;
+  margin-bottom: 80px;
+}
+.os1 img{
+  width: 768px;
+  height: 512px;
+}
+.osid{
+  border: 2px solid #171717;
+  float: left;
+  padding: 0px 20px;
+  margin-bottom: 30px;
+}
+.osid1{
+  display: inline-block;
+  border: 2px solid #171717;
+  padding: 0px 20px;
+}
+/* ============================================================================================ */
+#dips{
+  margin: 50px 20px;
+}
+.od1 img{
+  width: 350px;
+  height: 350px;
+}
+.odi{
+  border: 2px solid #171717;
+  float: left;
+  padding: 0px 10px;
+}
+.odi1{
+  display: inline-block;
+  border: 2px solid #171717;
+  padding: 0px 10px;
+}
+/* ========================================================================================== */
+#drinks{
+  margin: 50px 20px;
+}
+.odr img{
+  width: 768px;
+  height: 512px;
+}
+.dr{
+  border: 2px solid #171717;
+  float: left;
+  padding: 0px 20px;
+}
+.dr1{
+  display: inline-block;
+  border: 2px solid #171717;
+  padding: 10px 20px;
+  margin: 10px 0px 0px;
+}
+/* ========================================================================================== */
+#burger h3{
+  letter-spacing: .05em;
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  /* font-weight: bold; */
+}
+.o1{
+  letter-spacing: .05em;
+  text-align: center;
+  font-size: 35px;
+  border: 1px solid #171717;
+  /* margin-bottom: -1px; */
+  width: 800px;
+  height: 50px;
+}
+
+#bur-cheese{
+  width: 25px;
+  height: 25px;
+}
+#bur-ham{
+  width: 25px;
+  height: 25px;
+}
+#bur-chicken{
+  width: 25px;
+  height: 25px;
+}
+
+#bur-cheese-qty{
+  width: 150px;
+  height: 25px;
+}
+#bur-ham-qty{
+  width: 150px;
+  height: 25px;
+}
+#bur-chicken-qty{
+  width: 150px;
+  height: 25px;
+}
+
+.qty{
+  text-align: center;
+  margin-top: 10px;
+}
+/*========================================================================================*/
+#sides h3{
+  letter-spacing: .05em;
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+.side{
+  width: 25px;
+  height: 25px;
+}
+#side-fries-qty{
+  width: 150px;
+  height: 25px;
+}
+#side-potwedges-qty{
+  width: 150px;
+  height: 25px;
+}
+#side-frichicken-qty{
+  width: 150px;
+  height: 25px;
+}
+#side-chickennugg-qty{
+  width: 150px;
+  height: 25px;
+}
+/* ============================================================================================ */
+#dips h3{
+  letter-spacing: .05em;
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+.dip{
+  width: 25px;
+  height: 25px;
+}
+.o2{
+  /* letter-spacing: .05em; */
+  border: 1px solid #171717;
+  font-size: 30px;
+  width: 270px;
+  /* text-align: center; */
+  height: 50px;
+  padding-left: 5px;
+  margin-left: 100px;
+  /* text-align: center; */
+}
+#dip-tomato-qty{
+  width: 150px;
+  height: 25px;
+  margin-left: 130px;
+  margin-top: 10px;
+}
+#dip-mayo-qty{
+  width: 150px;
+  height: 25px;
+  margin-left: 130px;
+  margin-top: 10px;
+}
+#dip-mustard-qty{
+  width: 150px;
+  height: 25px;
+  margin-left: 130px;
+  margin-top: 10px;
+}
+#dip-bbq-qty{
+  width: 150px;
+  height: 25px;
+  margin-left: 130px;
+  margin-top: 10px;
+}
+/* ===================================================================================== */
+#drinks h3{
+  letter-spacing: .05em;
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.drink{
+  width: 25px;
+  height: 25px;
+}
+#drink-coke-qty{
+  width: 150px;
+  height: 25px;
+}
+#drink-pepsi-qty{
+  width: 150px;
+  height: 25px;
+}
+#drink-sprite-qty{
+  width: 150px;
+  height: 25px;
+}
+/* ======================================================================== */
+.detail{
+  /* border: 1px solid #171717; */
+  /* position: absolute; */
+  margin-left: 37%;
+  left: 40%;
+  width: 500px;
+}
+#details h1{
+  letter-spacing: .05em;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
+} 
+.detail p{
+  letter-spacing: .05em;
+  font-size: 30px;
+  margin: 15px 0;
+}
+.detail input{
+  letter-spacing: .05em;
+  font-size: 20px;
+  padding: 15px 10px;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+}
+#submit{
+  letter-spacing: .05em;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 30px 0;
+  padding: 10px 15px;
+  width: 50%;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(208, 111, 7);
+  margin-left: 115px;
+}
+.detail button:hover{
+  color: white;
+  cursor: pointer;
+}
+/* ====================================================================== */
+#menu h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Serif Pro', serif;
+  letter-spacing: .05em;
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 400px;
+  padding-top: 70px;
+ 
+
+}
+#menu h3{
+  letter-spacing: .05em;
+  text-align: center;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.bur{
+  letter-spacing: .05em;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 7px;
+  font-weight: bold;
+}
+
+.fot{
+  background-color: rgb(122, 119, 119);
+}
+
+.footer{
+  border: 1px solid #171717;
+  height: 300px;
+  background-image: url(/Website/Images/Logo1.png);
+  background-repeat: no-repeat;
+  background-position: 65px 55px;
+  /* display: inline-flex; */
+  /* flex-wrap: wrap; */
+
+}
+#foo{
+  border: 1px solid rgb(122, 119, 119);
+  display: inline-flex;
+  margin-left: 70%;
+  margin-top: 70px;
+
+}
+.foti{
+  display: block;
+  left: 10px;
+  top: 30px;
+}
+.footer li{
+  letter-spacing: .04em;
+  display: inline-flex;
+  font-size: 35px;
+}
+.footer a{
+  padding: 10px 44px;
+  color: black;
+}
+.footer li a:hover{
+  color: white;
+}
+.footer li a.active{
+  color: white;
+} 
+/* =========================================================================== */
+
+/* About us */
+
+#about h2{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Serif Pro', serif;
+  letter-spacing: .05em;
+  font-size: 65px;
+  text-align: center;
+  text-transform: uppercase;
+  /* margin: 90px ; */
+  margin-top: 160px;
+  margin-bottom: 80px;
+}
+#about p{
+  letter-spacing: .03em;
+  font-size: 30px;
+}
+
+/* ====================================================================================== */
+
+/* contact*/
+
+#contact h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Serif Pro', serif;
+  letter-spacing: .05em;
+  font-size: 65px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 90px;
+}
+#contact h3{
+  letter-spacing: .04em;
+  /* text-align: center; */
+  font-size: 35px;
+}
+#contact p{
+  letter-spacing: .03em;
+  /* text-align: center; */
+  font-size: 28px;
+}
+.lab{
+  letter-spacing: .05em;
+  font-size: 30px;
+  margin: 15px 0;
+  color: black;
+}
+
+.cont{
+  border: 1px solid white;
+  background-color: white;
+  display: inline-block;
+  margin-top: 20px ;
+  padding: 40px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-left: 36%;
+}
+input{
+  letter-spacing: .03em;
+  font-size: 20px;
+  padding: 15px 10px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* outline: none; */
+}
+textarea{
+  letter-spacing: .05em;
+  padding: 15px 10px;
+  font-size: 20px;
+  border: 1px solid black;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+}
+button{
+  letter-spacing: .05em;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px 0px;
+  padding: 10px 15px;
+  width: 105%;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(208, 111, 7);
+  /* margin-left: 115px; */
+}
+button:hover{
+  color: white;
+  cursor: pointer;
+}
+.add{
+  letter-spacing: .05em;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+.center{
+  text-align: center;
+}
+
+/* ========================================================================================= */
+
+#name_error,#phone_error,#email_error{
+  margin-top: 5px ;
+  width: 100%;
+  font-size: 18px;
+  color: #c62828;
+  background: rgba(255, 0, 0,0.1);
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 3px;
+  border: 1px solid #ef9a9a;
+  display: none;
+}
+
+/* =============================================================================================== */
+
+/* order recived */
+.recive{
+  border: 1px solid red;
+  display: inline-block;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 30%;
+  padding: 50px;
+  background-color: aqua;
+  color: black;
+  border-radius: 30px;
+}
+.recive h1{
+
+  text-align: center;
+  font-size: 55px;
+  font-weight: bold;
+}
+.recive h3{
+  text-align: center;
+  font-size: 30px;
+}

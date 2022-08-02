@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Uncle Roger's</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&family=Source+Serif+Pro:wght@300&display=swap"
+    rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="mid">
+    <nav class="navbar">
+      <ul>
+        <li><a href="/Website/home.html">Home</a></li>
+        <li><a href="/Website/menu.html">Menu</a></li>
+        <li><a href="/Website/order.html" class="active">Order</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- <script src="/Website/script.js"></script> -->
+  <figure class="logo">
+    <img src="/Website/Images/Logo1.png" />
+  </figure>
+
+  <main>
+    <!-- <form action="resive.html" method="get" name="form1" id="form1" onsubmit="return validated()"> -->
+    <form action="database.php" method="post" name="form1" id="form1" onsubmit="return validated()">
+      <!-- <form  name="form1" method="post" onsubmit="return validated()"> -->
+      <section id="burger">
+        <h3>Burgers</h3>
+        <div class="or">
+          <figure class="ofig1">
+            <img src="/Website/Images/Cheese Burger.jpg" />
+          </figure>
+          <div class="o1">
+            <input type="checkbox" id="bur-cheese" name="bur" value="cheese burger">
+            <label for="bur-cheese">Cheese Burger $4</label><br><br>
+          </div>
+          <div class="qty">
+            <input type="number" id="bur-cheese-qty" name="bur-cheese-qty" step="1" min="0" max="99">
+          </div>
+        </div>
+        <div class="or">
+          <figure class="ofig1">
+            <img src="/Website/Images/Ham Burgers.jpg" />
+          </figure>
+          <div class="o1">
+            <input type="checkbox" id="bur-ham" name="bur" value="ham burger">
+            <label for="bur-ham">Ham Burger $6</label><br><br>
+          </div>
+          <div class="qty">
+            <input type="number" id="bur-ham-qty" name="bur-ham-qty" step="1" min="0" max="99">
+          </div>
+        </div>
+        <div class="or1">
+          <figure class="ofig1">
+            <img src="/Website/Images/Chicken Burger.jpg" />
+          </figure>
+          <div class="o1">
+            <input type="checkbox" id="bur-chicken" name="bur" value="ham burger">
+            <label for="bur-chicken">Chicken Burger $5</label><br><br>
+          </div>
+          <div class="qty">
+            <input type="number" id="bur-chicken-qty" name="bur-chicken-qty" step="1" min="0" max="99">
+          </div>
+        </div>
+      </section>
+      <hr>
+
+      <section id="sides">
+        <h3>Sides</h3>
+        <div class="osid">
+          <figure class="os1">
+            <img src="/Website/Images/Fries.jpg" />
+          </figure>
+          <div class="o1">
+            <input type="checkbox" id="side-fries" class="side" name="side" value="fries">
+            <label for="side-fries">Fries $3.5</label><br><br>
+          </div>
+          <div class="qty">
+            <input type="number" id="side-fries-qty" name="side-fries-qty" step="1" min="0" max="99">
+          </div>
+        </div>
+        <div class="osid">
+          <figure class="os1">
+            <img src="/Website/Images/Potato Wedges.jpg" />
+          </figure>
+          <div class="o1">
+            <input type="checkbox" id="side-potwedges" class="side" name="side" value="potato wedges">
+            <label for="side-potwedges">Potato Wedges $3</label><br><br>
+          </div>
+          <div class="qty">
+            <input type="number" id="side-potwedges-qty" name="side-potwedges-qty" step="1" min="0" max="99">
+          </div>
+        </div>
+        <div class="osid">
+          <figure class="os1">
+            <img src="/Website/Images/Fried Chicken.jpg" />
+          </figure>
+          <div class="o1">
+            <input type="checkbox" id="side-frichicken" class="side" name="side" value="fried chicken">
+            <label for="side-frichicken">Fried Chicken 4pc. $8</label><br><br>
+          </div>
+          <div class="qty">
+            <input type="number" id="side-frichicken-qty" name="side-frichicken-qty" step="1" min="0" max="99">
+          </div>
+        </div>
+        <div class="osid1">
+          <figure class="os1">
+            <img src="/Website/Images/Chicken Nuggets.jpg" />
+          </figure>
+          <div class="o1">
+            <input type="checkbox" id="side-chickennugg" class="side" name="side" value="chicken nuggets">
+            <label for="side-chickennugg">Chicken Nuggets $5</label><br><br>
+          </div>
+          <div class="qty">
+            <input type="number" id="side-chickennugg-qty" name="side-chickennugg-qty" step="1" min="0" max="99">
+          </div>
+        </div>
+      </section>
+      <hr>
+
+      <section id="dips">
+        <h3>Dips</h3>
+        <div class="odi">
+          <figure class="od1">
+            <img src="/Website/Images/Tomato Sauce.png" />
+          </figure>
+          <div class="o2">
+            <input type="checkbox" id="dip-tomato" class="dip" name="dip" value="tomato">
+            <label for="dip-tomato">Tomato $0.6</label><br><br>
+          </div>
+          <input type="number" id="dip-tomato-qty" name="dip-tomato-qty" step="1" min="0" max="99">
+        </div>
+        <div class="odi">
+          <figure class="od1">
+            <img src="/Website/Images/Mayonnaise Sauce.jpg" />
+          </figure>
+          <div class="o2">
+            <input type="checkbox" id="dip-mayo" class="dip" name="side" value="mayo">
+            <label for="dip-mayo">Mayonnaise $0.6</label><br><br>
+          </div>
+          <input type="number" id="dip-mayo-qty" name="dip-mayo-qty" step="1" min="0" max="99">
+        </div>
+        <div class="odi">
+          <figure class="od1">
+            <img src="/Website/Images/Mustard Sauce.jpg" />
+          </figure>
+          <div class="o2">
+            <input type="checkbox" id="dip-mustard" class="dip" name="side" value="mustard">
+            <label for="dip-mustard">Mustard $0.6</label><br><br>
+          </div>
+          <input type="number" id="dip-mustard-qty" name="dip-mustard-qty" step="1" min="0" max="99">
+        </div>
+        <div class="odi1">
+          <figure class="od1">
+            <img src="/Website/Images/BBQ Sauce.jpg" />
+          </figure>
+          <div class="o2">
+            <input type="checkbox" id="dip-bbq" class="dip" name="side" value="bbq">
+            <label for="dip-bbq">BBQ $0.6</label><br><br>
+          </div>
+          <input type="number" id="dip-bbq-qty" name="dip-bbq-qty" step="1" min="0" max="99">
+        </div>
+      </section>
+      <hr>
+
+      <section id="drinks">
+        <h3>Drinks</h3>
+        <div class="dr">
+          <figure class="odr">
+            <img src="/Website/Images/Drink Coke.png" />
+          </figure>
+          <div class="o1">
+            <input type="checkbox" id="drink-coke" class="drink" name="drink" value="coke">
+            <label for="drink-coke">Coco Cola, 400ml $1.5</label><br><br>
+          </div>
+          <div class="qty">
+            <input type="number" id="drink-coke-qty" name="drink-coke-qty" step="1" min="0" max="99">
+          </div>
+        </div>
+        <div class="dr">
+          <figure class="odr">
+            <img src="/Website/Images/Drink Pepsi.png" />
+          </figure>
+          <div class="o1">
+            <input type="checkbox" id="drink-pepsi" class="drink" name="drink" value="pepsi">
+            <label for="drink-pepsi">Pepsi, 400ml $1.5</label><br><br>
+          </div>
+          <div class="qty">
+            <input type="number" id="drink-pepsi-qty" name="drink-pepsi-qty" step="1" min="0" max="99">
+          </div>
+        </div>
+        <div class="dr1">
+          <figure class="odr">
+            <img src="/Website/Images/Drink Sprite.png" />
+          </figure>
+          <div class="o1">
+            <input type="checkbox" id="srink-sprite" class="drink" name="drink" value="sprite">
+            <label for="drink-sprite">Sprite, 400ml $1.5</label><br><br>
+          </div>
+          <div class="qty">
+            <input type="number" id="drink-sprite-qty" name="drink-sprite-qty" step="1" min="0" max="99">
+          </div>
+        </div>
+      </section>
+      <hr>
+      <div class="detail">
+        <section id="details">
+          <h1>Details</h1>
+          <!-- <label for="cust-name">Name, Surname</label>
+          <input type="text" id="cust-name" name="cust-name"><br><br>
+          <label for="cust-phone">Phone No.</label>
+          <input type="text" id="cust-phone" name="cust-phone"><br><br>
+          <label for="cust-email">Email</label>
+          <input type="text" id="cust-email" name="cust-email"><br><br>
+        </section>
+
+        <input type="submit" value="Order"><br><br> -->
+          <p>Name : </p>
+          <input type="text" name="cust-name" placeholder="your name">
+          <div id="name_error">Please fill up your Name</div>
+          <p>Phone No. : </p>
+          <input type="text" name="cust-phone" placeholder="your number">
+          <div id="phone_error">Please fill up your Phone no.</div>
+          <p>Email : </p>
+          <input type="text" name="cust-email" placeholder="your email">
+          <div id="email_error">Please fill up your email</div>
+
+          <!-- <input type="submit" id="submit" value="Order">  -->
+          <div class="container">
+            <button type="submit" name="submit"  id="submit" > Order</button>
+          
+            </div>
+          </div>
+        </section>
+      </div>
+    </form>
+  </main>
+
+  <div class="fot">
+    <footer>
+      <nav class="footer">
+        <ul>
+          <div id="foo">
+            <li><a href="/Website/about-us.html">About Us</a></li>
+            <li><a href="/Website/contact.html">Contacts</a></li>
+          </div>
+        </ul>
+      </nav>
+    </footer>
+  </div>
+
+  <script src="/Website/script.js"></script>
+</body>
+
+</html>
